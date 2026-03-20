@@ -117,4 +117,4 @@ else:
 # -------- AUTO REFRESH --------
 st.caption(f"Last update: {datetime.now().strftime('%H:%M:%S')}")
 
-st.experimental_rerun()
+st.rerun()
